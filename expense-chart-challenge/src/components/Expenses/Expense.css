@@ -1,0 +1,32 @@
+.expenses {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: var(--pale-orange);
+}
+
+.expenses__total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expenses__price h3,
+.expenses__month {
+    color: grey;
+    font-size: 14px;
+}
+
+.expenses__price p {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.expenses__percent {
+    font-weight: bold;
+}
+
+.expenses__chart {
+    margin: 3rem 0;
+}
+

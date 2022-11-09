@@ -1,0 +1,17 @@
+.balance {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--soft-red);
+    padding: 20px;
+    color: #fff;
+}
+
+.balance h3 {
+    font-size: 14px;
+    padding-bottom: 0.7rem;
+}
+
+.balance p {
+    font-size: 25px;
+}
