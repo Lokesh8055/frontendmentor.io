@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+--pale-blue: hsl(225, 100%, 94%)
+--bright-blue: hsl(245, 75%, 52%)
+
+--very-pale-blue: hsl(225, 100%, 98%)
+--desaturated-blue: hsl(224, 23%, 55%)
+--dark-blue: hsl(223, 47%, 23%)
+}
+
+*,
+*::after,
+*::before 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  box-sizing: border-box;
+  background-image: url('./images/pattern-background-desktop.svg');
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h2 {
+    font-size: 16px;
+  }
+  
+h1 {
+    font-size: 28px;
+    color: var(--dark-blue);
+    font-weight: 900;
+    padding-bottom: 17px;
+}
+
+p {
+    color: hsla(223, 23%, 55%, 1);
+    font-weight: 500;
+    line-height: 26px;
+ }
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    width: 350px;
+    padding: 15px 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 900;
+ }
+
+.btn-proceed {
+    background: #382AE1;
+    border-color: #382AE1;
+    color: #fff;
+}
+
+.btn-proceed:hover,
+.btn-proceed:active {
+    background-color: #766CF1;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    margin-top: 24px;
+    color: #717FA6;
+}
+
+.btn-cancel:hover,
+.btn-cancel:active {
+    color: #1F2E55;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.card {
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.summary {
+    padding: 48px;
+    text-align: center;
+}
+
+.summary-image {
+    margin-right: 20px;
+}
+
+.summary-plan {
+   margin: 45px 0;
+}
+
+.change-link {
+   color: #382AE1;
+}
+
+.change-link:hover,
+.change-link:active {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .card {
+        max-width: 330px;
+    }
+    .btn {
+        width: 280px;
+    }
+}
