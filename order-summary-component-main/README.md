@@ -22,13 +22,16 @@ Users should be able to:
 
 ### Screenshot
 
+#### Desktop
 ![](./screenshots/desktop.png)
+
+#### Mobile
 ![](./screenshots/mobile.png)
 
 ### Links
 
-- [Solution](https://github.com/Lokesh8055/frontendmentor.io/tree/main/expense-chart-challenge)
-- [Live](https://expense-chart-lp.netlify.app/)
+- [Solution](https://github.com/Lokesh8055/frontendmentor.io/tree/main/order-summary-component-main)
+- [Live](https://order-summary-lp.netlify.app/)
 
 ## My process
 

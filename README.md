@@ -7,3 +7,9 @@ This repository is a collection of all my solutions I submitted at [frontendment
 | Tags          |        Challenges        |                                          Live |                                                                                      Code |
 | ------------- | :----------------------: | --------------------------------------------: | ----------------------------------------------------------------------------------------: |
 | HTML--CSS--JS | Expenses chart component | [Live](https://expense-chart-lp.netlify.app/) | [Code](https://github.com/Lokesh8055/frontendmentor.io/tree/main/expense-chart-challenge) |
+
+## Newbie
+
+| Tags      |       Challenges        |                                          Live |                                                                                           Code |
+| --------- | :---------------------: | --------------------------------------------: | ---------------------------------------------------------------------------------------------: |
+| HTML--CSS | Order Summary component | [Live](https://order-summary-lp.netlify.app/) | [Code](https://github.com/Lokesh8055/frontendmentor.io/tree/main/order-summary-component-main) |
