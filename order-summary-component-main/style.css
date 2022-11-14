@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 :root {
---pale-blue: hsl(225, 100%, 94%)
---bright-blue: hsl(245, 75%, 52%)
-
---very-pale-blue: hsl(225, 100%, 98%)
---desaturated-blue: hsl(224, 23%, 55%)
---dark-blue: hsl(223, 47%, 23%)
+--very-pale-blue: #717FA6;
+--dark-blue: #1F2E55;
+--dark-pink: #766CF1;
+--very-dark-blue: #382AE1;
 }
 
+/* Base Styles */
 *,
 *::after,
 *::before 
@@ -42,11 +41,16 @@ h1 {
 }
 
 p {
-    color: hsla(223, 23%, 55%, 1);
+    color: var(--very-pale-blue);
     font-weight: 500;
     line-height: 26px;
- }
+}
 
+.hero-image {
+    width: 100%;
+}
+
+/* Flex */
 .flex {
     display: flex;
 }
@@ -67,6 +71,7 @@ p {
     align-items: center;
 }
 
+/* Button Styles */
 .btn {
     display: inline-block;
     width: 350px;
@@ -78,20 +83,20 @@ p {
  }
 
 .btn-proceed {
-    background: #382AE1;
-    border-color: #382AE1;
+    background: var(--very-dark-blue);
+    border-color: var(--very-dark-blue);
     color: #fff;
 }
 
 .btn-proceed:hover,
 .btn-proceed:active {
-    background-color: #766CF1;
+    background-color: var(--dark-pink);
     cursor: pointer;
 }
 
 .btn-cancel {
     margin-top: 24px;
-    color: #717FA6;
+    color: var(--very-pale-blue);
 }
 
 .btn-cancel:hover,
@@ -99,10 +104,17 @@ p {
     color: #1F2E55;
 }
 
-.hero-image {
-    width: 100%;
-}
+/* Link */
+.change-link {
+    color: var(--very-dark-blue);
+ }
+ 
+ .change-link:hover,
+ .change-link:active {
+     cursor: pointer;
+ }
 
+/* Card */
 .card {
     max-width: 450px;
     background-color: #fff;
@@ -122,16 +134,11 @@ p {
    margin: 45px 0;
 }
 
-.change-link {
-   color: #382AE1;
-}
-
-.change-link:hover,
-.change-link:active {
-    cursor: pointer;
-}
-
+/* Mobile Styles */
 @media screen and (max-width: 768px) {
+    body {
+        background-image: url('./images/pattern-background-mobile.svg');
+    }
     h1 {
         font-size: 22px;
     }
