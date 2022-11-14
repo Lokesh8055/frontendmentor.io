@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    .terms li:not(:last-child) {
+        padding-bottom: 5px;
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .links li:not(:last-child) {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 0 24px;
+        z-index: 1;
+        margin-top: 450px;
+        display: block;
+
+        ul {
+            margin: 32px 0 64px 0;
+        }
+
+        .links li:not(:last-child) {
+            padding-right: 20px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    footer {
+        padding: 0 32px;
+    }
+}

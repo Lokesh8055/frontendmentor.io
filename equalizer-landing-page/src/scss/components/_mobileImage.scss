@@ -1,0 +1,25 @@
+.mobile-image {
+    width: 310px;
+    position: absolute;
+    top: -180px;
+    left: 100px;
+}
+
+@media (max-width: 900px) {
+
+    .mobile-image {
+        width: 270px;
+        left: 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .mobile-image {
+        width: 210px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+}

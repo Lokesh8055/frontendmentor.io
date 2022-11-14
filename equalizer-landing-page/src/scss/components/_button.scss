@@ -1,0 +1,38 @@
+@use '../variables';
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+
+    img {
+        margin-right: 5px;
+    }
+}
+
+.btn-ios {
+    background-color: variables.$black;
+    color: variables.$white;
+    margin-bottom: 16px;
+
+    &:hover,
+    &:active {
+        cursor: pointer;
+        background-color: variables.$green;
+    }
+}
+
+.btn-android {
+
+    &:hover,
+    &:active {
+        cursor: pointer;
+        background-color: variables.$yellow;
+    }
+}
