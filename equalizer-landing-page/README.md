@@ -1,16 +1,42 @@
-# Sass starter using Parcel
+# Frontend Mentor - Equalizer Landing Page component solution
 
-## How to use this repo
-1. Clone the repo
-2. In your terminal, run `npm install`
-3. In your terminal, run `npm run dev`
+This is a solution to the [Equalizer Landing Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/equalizer-landing-page-7VJ4gp3DE). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-You are good to go! It will watch all your files for changes automatically and live update your browser. 
+## Table of contents
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
-## When you are ready to go to production
-1. In your terminal, run `npm run build`. The final version of your site will be in the `dist` folder.
 
-## If you run into problems
-- Make sure you have [Node.js](https://nodejs.org/en/) installed, which will include npm.
-- Watch [the video where I put this together](https://youtu.be/wYWf2m_yzBQ) and explain how it works
-- Check out [Parcel's documentation](https://parceljs.org/getting_started.html)
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+
+- Bonus: See dynamically generated bars based on the data provided in the local JSON file
+### Screenshot
+
+![](./screenshot.png)
+
+### Links
+
+- [Solution](https://github.com/Lokesh8055/frontendmentor.io/tree/main/equalizer-landing-page)
+- [Live](https://expense-chart-lp.netlify.app/)
+
+## My process
+
+### Built with
+
+- HTML5
+- SCSS(CSS Precompiler)
+
+## Author
+
+- Frontend Mentor - [@Lokesh](https://www.frontendmentor.io/profile/Lokesh8055)
