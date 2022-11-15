@@ -19,16 +19,12 @@ This is a solution to the [Equalizer Landing Page challenge on Frontend Mentor](
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-
-- Bonus: See dynamically generated bars based on the data provided in the local JSON file
-### Screenshot
-
-![](./screenshot.png)
+- See hover states for interactive elements
 
 ### Links
 
 - [Solution](https://github.com/Lokesh8055/frontendmentor.io/tree/main/equalizer-landing-page)
-- [Live](https://expense-chart-lp.netlify.app/)
+- [Live](https://equalizer-landing-lp.netlify.app/)
 
 ## My process
 
