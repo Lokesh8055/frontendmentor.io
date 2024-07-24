@@ -1,24 +1,13 @@
-# Frontend Mentor - Expenses chart component component solution
+# Order Summary
+  Order summary application creating using HTML5 and CSS3
 
-This is a solution to the [Order summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+## Functionalities
+1. Users will be able to see hover states for interactive elements
+2. Application is Responsive and will work on different screen sizes.
 
-## Table of contents
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-  - [Author](#author)
+## Live Application URL
 
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- See hover states for interactive elements
+The Application is deployed in https://order-summary-lp.netlify.app/
 
 ### Screenshot
 
@@ -27,17 +16,3 @@ Users should be able to:
 
 #### Mobile
 ![](./screenshots/mobile.png)
-
-### Links
-
-- [Solution](https://github.com/Lokesh8055/frontendmentor.io/tree/main/order-summary-component-main)
-- [Live](https://order-summary-lp.netlify.app/)
-
-## My process
-
-### Built with
-- HTML5
-- CSS 3
-
-## Author
-- Frontend Mentor - [@Lokesh](https://www.frontendmentor.io/profile/Lokesh8055)
