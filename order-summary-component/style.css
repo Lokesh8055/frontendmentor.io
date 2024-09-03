@@ -40,11 +40,11 @@ body {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 1.75rem;
   color: var(--dark-blue);
   font-weight: 900;
   padding-bottom: 17px;
@@ -88,7 +88,7 @@ p {
   width: 350px;
   border-radius: 10px;
   border: none;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: 900;
   cursor: pointer;
   background: transparent;
@@ -98,18 +98,18 @@ p {
   background: var(--bright-blue);
   border-color: var(--bright-blue);
   color: var(--color-white);
-  padding: 15px 0;
-  box-shadow: 0 20px 20px 0 var(--bright-blue-hover);
+  padding: 0.938rem 0;
+  box-shadow: 0 1.25em 1.25em 0 var(--bright-blue-hover);
 }
 
 .btn-proceed:hover,
 .btn-proceed:active {
   background-color: var(--dark-pink);
-  box-shadow: 0 20px 20px 0 var(--dark-pink-hover);
+  box-shadow: 0 1.25em 1.25em 0 var(--dark-pink-hover);
 }
 
 .btn-cancel {
-  margin-top: 32px;
+  margin-top: 2em;
   color: var(--pale-blue);
 }
 
@@ -143,22 +143,22 @@ p {
 }
 
 .summary-details {
-  padding: 45px 48px 0;
+  padding: 2.813em 3em 0;
 }
 
 .iconMusic {
-  margin-right: 20px;
+  margin-right: 1.25em;
 }
 
 .summary-plan {
   background-color: var(--background);
-  padding: 25px;
-  margin: 20px 48px 32px;
+  padding: 1.563em;
+  margin: 1.25em 3em 2em;
   border-radius: 10px;
 }
 
 .summary-buttons {
-  padding-bottom: 48px;
+  padding-bottom: 3em;
 }
 
 /* Mobile Styles */
@@ -170,20 +170,20 @@ p {
   }
 
   .summary-details {
-    padding: 32px 32px 0;
+    padding: 2em 2em 0;
   }
 
   .summary-plan {
-    margin: 24px;
-    padding: 17px;
+    margin: 1.5em;
+    padding: 1.063em;
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   p {
-    font-size: 15px;
+    font-size: 0.938rem;
   }
 
   .card,
@@ -192,7 +192,7 @@ p {
   }
 
   .summary-buttons {
-    padding-bottom: 32px;
+    padding-bottom: 2em;
   }
 
   .btn {
@@ -200,6 +200,6 @@ p {
   }
 
   .btn-cancel {
-    margin-top: 24px;
+    margin-top: 1.5em;
   }
 }
