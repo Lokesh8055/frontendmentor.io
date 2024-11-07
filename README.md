@@ -1,6 +1,6 @@
 # My frontendmentor.io solutions
 
-This repository is a collection of all my solutions I submitted at [frontendmentor.io](https://www.frontendmentor.io/home)
+This repository is a collection of all my solutions submitted at [frontendmentor.io](https://www.frontendmentor.io/home)
 
 ## Newbie
 
