@@ -11,8 +11,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- [Solution](https://github.com/Lokesh8055/frontendmentor.io/tree/main/qr-code-component)
-- [LiveSite](https://lokesh-qr-code-challenge.netlify.app/)
+- [Solution](https://github.com/Lokesh8055/frontendmentor.io/tree/main/blog-preview-card)
+- [LiveSite](https://blog-preview-lp.netlify.app)
 
 ## My process
 

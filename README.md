@@ -7,6 +7,7 @@ This repository is a collection of all my solutions submitted at [frontendmentor
 | Tags      |    Challenges     |                                                  Live |                                                                                Code |
 | --------- | :---------------: | ----------------------------------------------------: | ----------------------------------------------------------------------------------: |
 | HTML--CSS | Qr Code Component | [Live](https://lokesh-qr-code-challenge.netlify.app/) | [Code](https://github.com/Lokesh8055/frontendmentor.io/tree/main/qr-code-component) |
+| HTML--CSS | Blog Preview Card |          [Live](https://blog-preview-lp.netlify.app/) | [Code](https://github.com/Lokesh8055/frontendmentor.io/tree/main/blog-preview-card) |
 
 ## Junior
 

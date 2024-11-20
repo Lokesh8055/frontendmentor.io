@@ -12,7 +12,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - [Solution](https://github.com/Lokesh8055/frontendmentor.io/tree/main/qr-code-component)
-- [LiveSite](https://lokesh-qr-code-challenge.netlify.app/)
+- [LiveSite](https://qr-code-component-lp.netlify.app/)
 
 ## My process
 
