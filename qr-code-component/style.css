@@ -90,8 +90,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  padding: 0 5px;
+  min-height: 100svh;
+  padding: 15px;
 }
 
 .qrCode {
